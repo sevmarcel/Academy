@@ -1,0 +1,5 @@
+cd ~
+source ~/.profile
+cd $HOME/masa-node-v1.0
+geth --datadir data init ./network/testnet/genesis.json
+exit
